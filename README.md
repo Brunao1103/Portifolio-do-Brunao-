@@ -12,11 +12,6 @@
     <p>Futuro Engenheiro | Estudante do 3º ano</p>
   </header>
 
-  <nav>
-    <button onclick="aumentarFonte()">Aumentar Fonte</button>
-    <button onclick="diminuirFonte()">Diminuir Fonte</button>
-    <button onclick="alternarContraste()">Alto Contraste</button>
-  </nav>
 
   <main>
     <section>
