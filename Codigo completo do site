@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Bruno</title>
+  <style>
+    :root {
+      --cor-fundo: #f5f7fa;
+      --cor-primaria: #004aad;
+      --cor-texto: #222;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: var(--cor-fundo);
+      color: var(--cor-texto);
+      line-height: 1.6;
+      transition: background 0.3s, color 0.3s;
+      font-size: 16px;
+    }
+
+    header {
+      background: var(--cor-primaria);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    nav {
+      background: #003b8a;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav button {
+      background: white;
+      color: var(--cor-primaria);
+      border: none;
+      margin: 5px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    nav button:hover {
+      background: #ddd;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: var(--cor-primaria);
+    }
+
+    footer {
+      text-align: center;
+      background: var(--cor-primaria);
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    /* Modo de alto contraste */
+    .alto-contraste {
+      background: #000 !important;
+      color: #ffffff !important;
+    }
+
+    .alto-contraste header,
+    .alto-contraste nav,
+    .alto-contraste footer {
+      background: #000 !important;
+      color: #ffffff !important;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bruno Silva</h1>
+    <p>Futuro Engenheiro | Estudante do 3º ano</p>
+  </header>
+
+  
+
+  <main>
+    <section>
+      <h2>Sobre Mim</h2>
+      <p>Olá! Meu nome é Bruno Silva, tenho 17 anos e sou estudante do 3º ano. Meu sonho é me tornar um engenheiro e contribuir com projetos que impactem positivamente a sociedade.</p>
+    </section>
+
+    <section>
+      <h2>Educação</h2>
+      <ul>
+        <li>Ensino Médio - 3º ano (Atual)</li>
+        <li>Projetos e atividades extracurriculares voltados para engenharia e tecnologia</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Matemática e Física avançadas</li>
+        <li>Programação básica e robótica</li>
+        <li>Trabalho em equipe e resolução de problemas</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <p>Email: bruno.silva@email.com</p>
+      <p>Telefone: (11) 99999-9999</p>
+    </section>
+  </main>
+
+
+ 
+</body>
+</html>
